@@ -1,0 +1,116 @@
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: var(--fourth-color);
+}
+
+.nav-links {
+  width: 30%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.nav-links li {
+  margin: 0 15px;
+  transition: all 0.2s ease;
+}
+
+.nav-links li:hover {
+  transform: translateY(-4px);
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: var(--third-color);
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.actions-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Profile Dropdown */
+.profile-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--second-color);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.profile-dropdown p {
+  margin: 10px 0;
+}
+
+.logout-button {
+  background-color: #ff9800;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #e68a00;
+}
+
+.cart-icon {
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cart-items-count {
+  width: 14px;
+  height: 18px;
+  position: absolute;
+  right: 25px;
+  top: 10px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--second-color);
+  border-radius: 9px;
+  background-color: var(--third-color);
+}

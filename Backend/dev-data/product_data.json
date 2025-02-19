@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Mountain Bike",
+    "description": "A high-performance mountain bike with durable tires for rough terrain.",
+    "category": "Bikes",
+    "image": "./../assets/1.jpg",
+    "price": 450
+  },
+  {
+    "name": "Road Bike",
+    "description": "Lightweight road bike designed for speed on paved roads.",
+    "category": "Bikes",
+    "image": "./../assets/2.jpg",
+    "price": 600
+  },
+  {
+    "name": "Hybrid Bike",
+    "description": "A versatile bike combining features of both road and mountain bikes.",
+    "category": "Bikes",
+    "image": "./../assets/3.jpg",
+    "price": 500
+  },
+  {
+    "name": "Electric Bike",
+    "description": "Electric-assisted bike for easier pedaling and longer rides.",
+    "category": "Bikes",
+    "image": "./../assets/4.jpg",
+    "price": 1200
+  },
+  {
+    "name": "Cycling Helmet",
+    "description": "Protective helmet for safe cycling, available in various sizes.",
+    "category": "Accessories",
+    "image": "./../assets/5.jpg",
+    "price": 50
+  },
+  {
+    "name": "Bike Lock",
+    "description": "Durable lock to secure your bike with ease.",
+    "category": "Accessories",
+    "image": "./../assets/6.jpg",
+    "price": 30
+  },
+  {
+    "name": "Water Bottle Holder",
+    "description": "Convenient holder to carry water bottles on your bike frame.",
+    "category": "Accessories",
+    "image": "./../assets/7.jpg",
+    "price": 15
+  },
+  {
+    "name": "Cycling Gloves",
+    "description": "Comfortable gloves designed to reduce hand fatigue during cycling.",
+    "category": "Accessories",
+    "image": "./../assets/8.jpg",
+    "price": 25
+  },
+  {
+    "name": "Bike Light",
+    "description": "LED light for better visibility during night rides.",
+    "category": "Accessories",
+    "image": "./../assets/9.jpg",
+    "price": 35
+  },
+  {
+    "name": "Bike Saddle Bag",
+    "description": "Compact bag for carrying tools and essentials under your bike seat.",
+    "category": "Accessories",
+    "image": "./../assets/10.jpg",
+    "price": 20
+  },
+  {
+    "name": "BMX Bike",
+    "description": "Stunt bike for performing tricks and jumps.",
+    "category": "Bikes",
+    "image": "./../assets/11.jpg",
+    "price": 400
+  },
+  {
+    "name": "Folding Bike",
+    "description": "Compact folding bike for easy storage and transportation.",
+    "category": "Bikes",
+    "image": "./../assets/12.jpg",
+    "price": 700
+  },
+  {
+    "name": "Mountain Bike Tires",
+    "description": "Durable tires with excellent grip for rough terrain.",
+    "category": "Parts",
+    "image": "./../assets/13.jpg",
+    "price": 60
+  },
+  {
+    "name": "Road Bike Tires",
+    "description": "Lightweight tires for smooth and efficient rides on paved surfaces.",
+    "category": "Parts",
+    "image": "./../assets/14.jpg",
+    "price": 45
+  },
+  {
+    "name": "Chain Lubricant",
+    "description": "High-quality lubricant for smooth and quiet chain movement.",
+    "category": "Parts",
+    "image": "./../assets/15.jpg",
+    "price": 12
+  },
+  {
+    "name": "Bike Pedals",
+    "description": "Durable pedals designed for comfort and performance.",
+    "category": "Parts",
+    "image": "./../assets/16.jpg",
+    "price": 40
+  },
+  {
+    "name": "Cycling Jersey",
+    "description": "Breathable cycling jersey for comfortable rides.",
+    "category": "Clothing",
+    "image": "./../assets/17.jpg",
+    "price": 60
+  },
+  {
+    "name": "Cycling Shorts",
+    "description": "Padded cycling shorts for long rides without discomfort.",
+    "category": "Clothing",
+    "image": "./../assets/18.jpg",
+    "price": 45
+  },
+  {
+    "name": "Bike Pump",
+    "description": "Portable pump for inflating your tires quickly and easily.",
+    "category": "Accessories",
+    "image": "./../assets/19.jpg",
+    "price": 25
+  },
+  {
+    "name": "Kids' Bike",
+    "description": "A safe and fun bike for kids with training wheels.",
+    "category": "Bikes",
+    "image": "./../assets/20.jpg",
+    "price": 150
+  }
+]

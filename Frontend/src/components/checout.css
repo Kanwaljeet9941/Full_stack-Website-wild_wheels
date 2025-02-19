@@ -1,0 +1,110 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #faf5e6;
+  color: #2d2c2e;
+  margin: 0;
+  padding: 0;
+}
+
+.checkout-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-header h1 {
+  font-size: 2.5rem;
+  color: #fd1f4a;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.checkout-content h2 {
+  font-size: 1.8rem;
+  color: #fd1f4a;
+  margin-bottom: 1rem;
+}
+
+.checkout-items {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #2d2c2e;
+}
+
+.item-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.item-quantity {
+  font-size: 1rem;
+  color: #2d2c2e;
+}
+
+.item-price {
+  font-size: 1rem;
+  color: #fbbd0d;
+}
+
+.total-amount {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 2px solid #fd1f4a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-amount h3 {
+  font-size: 1.5rem;
+  color: #2d2c2e;
+}
+
+.total-amount p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fd1f4a;
+}
+
+.address-form label {
+  display: block;
+  font-weight: bold;
+  margin: 1rem 0 0.5rem;
+}
+
+.address-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #2d2c2e;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #fbbd0d;
+  color: #2d2c2e;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fd1f4a;
+  color: #faf5e6;
+}

@@ -1,0 +1,140 @@
+::-webkit-scrollbar {
+  display: none;
+}
+.cart-container {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 100%;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 10;
+}
+.cart-close {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-bottom: 15px;
+  color: var(--fourth-color);
+
+  background-color: var(--second-color);
+  border: 1px solid #666;
+  border-radius: 20px;
+
+  font-size: 0.7em;
+  gap: 0px;
+  transition: all 0.2s ease;
+}
+
+.cart-item:hover {
+  color: var(--second-color);
+  background-color: #666;
+}
+
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.cart-list-scroller {
+  max-height: 80%;
+  overflow: scroll;
+}
+
+.cart-item-info {
+  flex-grow: 1;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-btn {
+  background-color: var(--first-color);
+  color: white;
+  border: none;
+  padding: 2px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-btn:hover {
+  background-color: #ff466b;
+}
+
+.quantity {
+  font-weight: bold;
+}
+
+.cart-total {
+  position: absolute;
+  width: 90%;
+  bottom: 40px;
+  border-top: 1px solid #999;
+  padding-top: 20px;
+}
+.cart-checkout {
+  position: absolute;
+  bottom: 60px;
+  right: 40px;
+  border: 1px solid var(--first-color);
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: var(--fourth-color);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.cart-checkout:hover {
+  transform: translateY(-3px);
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cart-checkout:active {
+  transform: translateY(-1px);
+}
+
+.open {
+  animation: slider 0.6s ease;
+}
+
+@keyframes slider {
+  0% {
+    right: -400px;
+  }
+
+  100% {
+    right: 0px;
+  }
+}
+
+.close {
+  animation: sliderClose 0.6s ease;
+}
+
+@keyframes sliderClose {
+  0% {
+    right: 0px;
+  }
+
+  100% {
+    right: -400px;
+  }
+}
